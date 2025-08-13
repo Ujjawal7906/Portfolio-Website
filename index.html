@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ujjawal Thakur</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- -----------------------------------------Header----------------------------------------------------- -->
+
+    <header>
+      <nav>
+        <div class="left"><a href="index.html">&lt;/&gt Ujjawal Thakur</a></div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#myskills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certificate">Certificates</a></li>
+            <li><a href="#contact">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- -----------------------------------------Main------------------------------------------------------- -->
+
+    <main>
+      <!-- -----------------------------------------icons------------------------------------------------------ -->
+      <div class="icons">
+        <div class="social">
+          <div class="insta">
+            <a href="https://www.instagram.com/ujjawal_7906" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <div class="git">
+            <a href="https://github.com/Ujjawal7906" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <div class="link">
+            <a
+              href="https://www.linkedin.com/in/ujjawal-thakur-/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- -----------------------------------------firstsection----------------------------------------------- -->
+      <div class="firstsection" id="home">
+        <div class="leftsection">
+          Hi, My Name is <span class="purple">Ujjawal Thakur</span>
+          <div>and I am a Passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="passport_size-removebg-preview.png" alt="Developer" />
+        </div>
+      </div>
+      <!-- ------------------------------------------about-section--------------------------------------------- -->
+      <div class="secondsection" id="about">
+        <div class="exp">
+          <h1>About Me</h1>
+        </div>
+        <div class="about">
+          <div class="leftabout">
+            <img src="photo.png" alt="" />
+          </div>
+          <div class="rightabout">
+            <h1>About me</h1>
+            <p class="myself">
+              Hi! I'm Ujjawal Thakur, a passionate learner and aspiring web
+              developer. I recently completed my 12th grade and have started my
+              journey into computer science and technology. I enjoy building
+              creative and responsive websites using HTML, CSS, and JavaScript.
+            </p>
+            <hr />
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experiences
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab myself" id="skills">
+              <ul>
+                <li>I Work with HTML</li>
+                <li>I Work with CSS</li>
+                <li>I Work with JavaScript</li>
+                <li>I have Experience in Video Editing</li>
+                <li>I have Experience in Data Entry</li>
+              </ul>
+            </div>
+            <div class="tab-contents para myself" id="education">
+              <p>
+                I completed my 10th as well as 12th from Purngyananjali
+                International School Muradnagar, and currently pursuing my
+                graduation in Raj Kumar Goel Institute of Technology Ghaziabad.
+              </p>
+            </div>
+            <div class="tab-contents para myself" id="experience">
+              <p>
+                I'm a fresher with project-based experience in front-end
+                development, and I'm open to internships and freelance work.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------services-section----------------------------------------- -->
+      <div class="exp" id="services">
+        <h1>My Services</h1>
+      </div>
+      <div class="services-list">
+        <div class="service">
+          <i class="fa-solid fa-code"></i>
+          <h1>Web Developer</h1>
+          <p>
+            I create responsive and modern websites using HTML, CSS, and
+            JavaScript. I specialize in clean design, bug fixing, and
+            performance optimization to ensure your site looks great and works
+            smoothly on all devices.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-laptop-file"></i>
+          <h1>Data Entry</h1>
+          <p>
+            I provide fast, accurate, and reliable data entry services in Excel,
+            Google Sheets, and other platforms. Whether it's organizing data,
+            copy-pasting, or formatting spreadsheets, I ensure timely and
+            error-free delivery.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div class="service">
+          <i class="fa-solid fa-brain"></i>
+          <h1>Prompt Engineering</h1>
+          <p>
+            I design effective prompts to communicate with AI models like
+            ChatGPT and Midjourney. By crafting precise instructions, I unlock
+            powerful outputs for content generation, coding help, automation,
+            and more—bridging human intent with AI capabilities.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+      <!-- ----------------------------------MySkills-------------------------------->
+      <div class="exp" id="myskills">
+        <h1>My Skills</h1>
+      </div>
+
+      <div class="myskill_desc">
+        <p>
+          "I build clean and responsive websites using HTML, CSS, and
+          JavaScript. I also explore AI tools to make websites smarter and more
+          useful. I focus on creating easy-to-use designs and improving my
+          skills to keep up with new technology."
+        </p>
+      </div>
+
+      <div class="skills_section">
+        <div class="first_skill">
+          <img src="web1.jpg" class="skill1" alt="" />
+          <h2>Web Development</h2>
+          <p>
+            I design and develop visually appealing, responsive web interfaces
+            using HTML, CSS, and JavaScript. My focus is on crafting smooth user
+            journeys with pixel-perfect layouts, interactive elements, and
+            performance optimization that bring ideas to life in the browser.
+          </p>
+        </div>
+        <div class="second_skill">
+          <img src="promt-engineering.jpeg" alt="" />
+          <h2>Prompt Engineering</h2>
+          <p>
+            I create well-structured, goal-oriented prompts that unlock the full
+            potential of AI models. By blending clarity, creativity, and
+            context, I shape AI responses that deliver precise, engaging, and
+            useful outputs across different applications and workflows.
+          </p>
+        </div>
+        <div class="third_skill">
+          <img src="AI Powered.jpg" alt="" />
+          <h2>AI-Powered Web Solutions</h2>
+          <p>
+            I explore the integration of Generative AI tools into web
+            applications to add intelligent features like dynamic content
+            generation, personalized recommendations, and smart
+            automation—creating web experiences that are not just interactive,
+            but truly adaptive.
+          </p>
+        </div>
+      </div>
+
+      <!---------------------------------projects------------------------------------->
+      <div class="exp" id="projects">
+        <h1>My Projects</h1>
+      </div>
+
+      <div class="projects_section">
+        <div class="first_project">
+          <img src="landing.jpg" alt="" />
+          <h2>Landing Page Development</h2>
+          <p>
+            Promotional landing page for a fitness website Summer Campaign. Form
+            development included.
+          </p>
+          <div class="link_detail">
+            <a href="#">SEE DETAILS</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- -----------------------------------certificate---------------------------------- -->
+      <div class="exp" id="certificate">
+        <h1>Certificates</h1>
+      </div>
+      <div class="cert-container">
+      <img src="GenAI by Google.png" class="active" alt="Certificate 1">
+      <img src="Generative AI for Beginners_page-0001.jpg" alt="Certificate 2">
+      <img src="Prompt Engineering_page-0001.jpg" alt="Certificate 3">
+    </div>
+  </div>
+    </main>
+
+    <!-- ---------------------------------------------footer------------------------------------- -->
+    <footer>
+      <div class="footer" id="contact">
+        <div class="contact_information">
+          <div class="info">
+            <h1>Contact Information</h1>
+            <p>Fill up the form and I will get back to you within 24 hours.</p>
+            <div class="phone_no">
+              <i class="fa-solid fa-phone"></i>
+              <p>7906198523</p>
+            </div>
+            <div class="emailid">
+              <i class="fa-solid fa-envelope"></i>
+              <p>ujjawalthakur896@gmail.com</p>
+            </div>
+            <div class="resume">
+              <a href="#">DOWNLOAD RESUME</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact_form">
+          <form class="contact-form">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+
+            <label for="phone">Phone No</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone number"
+              required
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+
+            <label for="interest">Your Interest</label>
+            <select id="interest" name="interest" required>
+              <option value="">Select an interest</option>
+              <option value="web">Web Development</option>
+              <option value="ai">Artificial Intelligence</option>
+              <option value="design">UI/UX Design</option>
+              <option value="other">Other</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write your message..."
+            ></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="policy">
+        <p>Content Owned and Managed by Ujjawal Thakur</p>
+        <p>Made with ❤️ and ☕ in India</p>
+        <p>Last Updated: 2025</p>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Prompt Engineer",
+          "Web Designer",
+          "Video Editor",
+          "Web Developer",
+        ],
+        typeSpeed: 40,
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
