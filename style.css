@@ -5,9 +5,15 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  margin: 0;
+  padding: 0;
   background-color: rgb(12, 12, 110);
   font-family: "poppins", sans-serif;
   background-image: url(img.jpg);
@@ -76,6 +82,11 @@ nav .right ul li a::after {
 nav .right ul li a:hover::after {
   width: 100%;
 }
+
+.nav_toggle{
+  display: none;
+}
+
 
 .left {
   margin: 16px;

@@ -1,0 +1,390 @@
+@media screen and (max-width: 990px) {
+  nav {
+    display: none;
+  }
+
+  .nav_toggle {
+    display: block;
+    text-align: end;
+    font-size: 1.7rem;
+    margin-right: 10px;
+    color: azure;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  /* -----------------------------firstsection-------------------------------- */
+  .firstsection {
+    display: inline;
+  }
+
+  .leftsection {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .leftsection div {
+    font-size: 1.2rem;
+  }
+
+  #element {
+    padding: 0px;
+  }
+
+  .rightsection {
+    margin: 20px 0px 20px 30px;
+    box-sizing: border-box;
+  }
+
+  .rightsection img {
+    height: 300px;
+    width: 260px;
+  }
+
+  .exp {
+    font-size: 0.6rem;
+    margin: 50px 0px 40px 0px;
+    padding: 0px;
+  }
+
+  /* --------------------------------------about------------------------------------- */
+
+  .about {
+    box-sizing: border-box;
+    height: 150px;
+  }
+  .leftabout {
+    margin-left: 20px;
+  }
+
+  .leftabout img {
+    height: 170px;
+    width: 130px;
+    border: 2px solid rgb(48, 32, 32);
+    background-color: rgb(48, 32, 32);
+    border-radius: 15px;
+    padding: 30px 20px 0px 20px;
+    box-sizing: border-box;
+    transition: border 0.4s ease, transform 0.3s ease;
+  }
+
+  .rightabout {
+    margin: 10px 50px 20px 20px;
+  }
+
+  .rightabout h1 {
+    font-size: 0.9rem;
+  }
+
+  .myself {
+    font-size: 5.3px;
+    text-align: justify;
+    margin-right: 15px;
+  }
+
+  hr {
+    margin-top: 5px;
+    border: 1.7px solid red;
+  }
+
+  .rightabout hr {
+    height: -6px;
+  }
+
+  .tab-links {
+    font-size: 0.6rem;
+    margin: 5px 8px 5px 0px;
+  }
+
+  .tab-links::after {
+    bottom: -2px;
+  }
+
+  .tab-title {
+    margin-top: 0px;
+  }
+
+  .para {
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+    font-size: 5.5px;
+  }
+
+  #skills {
+    margin: 5px 0px 0px 10px;
+  }
+
+  /* ----------------------------------------myservices------------------------------------ */
+
+  .services-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+  }
+
+  .data {
+    display: none;
+  }
+
+  .service {
+    height: 150px;
+    width: 120px;
+    margin: 0px 10px 0px 10px;
+    padding: 0px;
+  }
+
+  .service i {
+    font-size: 13px;
+    margin: 10px 0px 5px 10px;
+  }
+
+  .service h1 {
+    color: #d3d3d3;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+  .service p {
+    color: white;
+    font-size: 6.3px;
+    margin: 0px 5px 0px 10px;
+    padding: 0px;
+  }
+
+  .service a {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+  .service a:hover {
+    color: #6e10db;
+    text-decoration: underline;
+  }
+
+  /* ---------------------------------------myskills------------------------------- */
+
+  .myskill_desc {
+    margin: 10px 40px 0px 40px;
+    font-size: 8px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .ai {
+    display: none;
+  }
+
+  .skills_section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 15px 10px;
+  }
+
+  .skills_section h2 {
+    font-size: 11px;
+    margin: 0px 0px 0px 8px;
+    padding: 0px;
+  }
+
+  .skills_section p {
+    font-size: 4.5px;
+    margin-left: 10px;
+  }
+
+  .first_skill {
+    width: 130px;
+    height: 180px;
+    margin-left: 4px;
+    border: 2px solid red;
+    border-radius: 20px;
+  }
+
+  .first_skill img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100px;
+    width: 130px;
+  }
+
+  .second_skill {
+    width: 130px;
+    height: 180px;
+    margin-left: 0px;
+    border: 2px solid red;
+    border-radius: 20px;
+  }
+
+  .second_skill img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100px;
+    width: 130px;
+  }
+
+  /* ----------------------------------projects---------------------------- */
+  .projects_section {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .projects_section h2 {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .projects_section p {
+    font-size: 6.5px;
+    margin: 5px;
+    padding: 0px;
+  }
+
+  .first_project {
+    height: 200px;
+    width: 150px;
+    margin: 0px;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .first_project img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100px;
+    width: 150px;
+  }
+
+  .link_detail {
+    margin-bottom: 20px;
+  }
+
+  .link_detail a {
+    padding: 4px 3px 4px 3px;
+    font-size: 0.7rem;
+    font-weight: 400;
+  }
+
+  /* ---------------------------------certificate--------------------------------- */
+  .cert-container {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 0px;
+  }
+
+  .cert-container img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 200px;
+    width: 80%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    border-radius: 8px;
+  }
+
+  .cert-container img.active {
+    opacity: 1;
+  }
+
+  /* --------------------------------------footer------------------------------------ */
+
+  .footer {
+    display: inline;
+    border: none;
+  }
+
+  .contact_information {
+    margin: 0px 20px 20px 20px;
+    background-color: rgba(167, 4, 4);
+    border-radius: 20px;
+  }
+
+  .info {
+    margin: 30px 10px 10px 20px;
+    padding-top: 10px;
+    font-size: 11px;
+    
+  }
+
+  .info p {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+
+  .phone_no i {
+    padding: 8px;
+    font-size: 1.3rem;
+  }
+
+  .phone_no p {
+    padding: 7px;
+    font-size: 0.9rem;
+  }
+
+  .emailid i {
+    padding: 8px;
+    font-size: 1.3rem;
+  }
+
+  .emailid p {
+    padding: 7px;
+    font-size: 0.8rem;
+  }
+
+  .resume {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    padding: 20px;
+  }
+
+  .contact-form {
+    margin: 20px;
+    padding: 15px;
+    width: 250px;
+    height: 300px;
+  }
+
+  .contact-form label {
+    font-weight: bold;
+    margin-top: 0px;
+    display: block;
+  }
+
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 10px;
+  }
+
+  .contact-form textarea {
+    resize: none;
+    height: 40px;
+  }
+
+  .contact-form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 7px;
+  }
+
+  .policy p {
+    font-size: 10px;
+  }
+
+  .policy {
+  margin-top: 20px;
+}
+}
